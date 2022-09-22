@@ -19,6 +19,32 @@ body{
     margin: 0;
 }
 
+a{
+    text-decoration: none;
+    color:#000;
+}
+
+/* : chooses a state to deal with*/
+a:hover{
+    color:red;
+}
+
+a:active{
+    color:darkgoldenrod;
+}
+
+.button{
+    background-color: darkgrey;
+    color:#fff;
+    padding:10px 15px;
+    border:none;
+}
+
+.button:hover{
+    background-color: red;
+    color:white;
+}
+
 .container{
     width: 80%;
     margin: auto;
@@ -35,8 +61,8 @@ body{
     /* Same as above */
     border: 5px red solid;
     
-    border-width: 10px;
-    border-style:ridge;
+    border-width: 1px;
+    border-style:solid;
 
     padding-top: 20px;
     padding-bottom: 20px;
@@ -44,6 +70,71 @@ body{
     padding-left: 20px;
     /* Same as above */
     padding: 20px;
+
+    margin:20px;
 }
+
+.box-1 h1{
+    font-family:Tahoma;
+    font-weight:800;
+    font-style:italic;
+    text-decoration:underline;
+    text-transform:capitalize;
+
+    letter-spacing: 0.2em;
+    word-spacing:0.1em;
+}
+
+.box-2{
+    border: 3px dotted #ccc;
+    padding: 20px;
+    margin:20px 0;
+}
+
+.block{
+    float:inline-end;
+    width:33.3%;
+}
+
+.categories{
+    border:1px #ccc solid;
+    padding:10px;
+    border-radius:15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    list-style: none;
+    padding:0;
+    padding:20px;
+}
+
+.categories li{
+    padding-bottom:6px;
+    border-bottom:dotted 1px #333;
+    list-style-image: url(../check.png);
+}
+
+.my-form{
+    padding:20px;  
+}
+
+.my-form .form-group{
+    padding-bottom:15px;
+}
+
+.my-form label{
+    display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding:8px;
+    width:100%;
+}
+
+
 
 /* Colors Names: HTML Names(grey, red), Hexadecimal(#f4f4f4) or RGB(rgb(0, 0, 255)) */
