@@ -1,2 +1,2 @@
 # Learning Frontend
-A little project to start learning HTML, CSS and JS
+Messing Around with HTML and CSS, learning and applying stuff, and a little project to start learning HTML and CSS.
